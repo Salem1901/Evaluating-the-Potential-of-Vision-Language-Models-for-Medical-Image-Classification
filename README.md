@@ -1,8 +1,9 @@
 # Evaluating-the-Potential-of-Vision-Language-Models-for-Medical-Image-Classification
-This repository contains the code and resources for our research on evaluating the potential of vision-language models for medical image classification, as described in our conference paper titled "Evaluating the Potential of Vision-Language Models for Medical Image Classification."
+This repository contains the code and resources for our research on evaluating the potential of vision-language models for medical image classification.
 
 # Overview
-The primary goal of this project is to explore the effectiveness of different machine learning models, including Vision Transformers (ViTs), Convolutional Neural Networks (CNNs), and a tiny vision-language model called Moondream, in the classification of 2D biomedical images. The repository includes Jupyter notebooks that detail the following:
+This paper investigates the potential of Vision-Language models for medical image classification, explicitly using the RetinaMNIST dataset from the well-known MedMNIST database. We conducted a comparative study on three models: Vision Transformer (ViT-Base-Patch16-224), ResNet-50, and Moondream2. The primary goal was to assess how well these models classified medical images into distinct categories. The ViT model had the highest accuracy (55%), with a precision of 51%, an F1 score of 51%, and a recall of 55%. The ResNet-50 model, a deep learning convolutional neural network, achieved 43.50% accuracy, while the Vision-Language model Moondream2 had a lower accuracy of 12.5%. These findings highlight the varying capabilities of different models in medical image classification, with Vision Transformers showing particularly promising results. This study contributes to the growing research on integrating Vision-Language models in medical imaging applications. 
+The repository includes Jupyter notebooks that detail the following:
 
 Data Preprocessing: The 2D biomedical images are preprocessed to ensure compatibility with the models. This includes tasks like normalization, resizing, and augmentation.
 
