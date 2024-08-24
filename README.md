@@ -18,6 +18,10 @@ cd medical-image-classification
 2. Install the required dependencies: pip install -r requirements.txt
 3. Run the notebooks
 4. Access the Moondream API: The tiny vision-language model, Moondream, is utilized via its API available at Moondream2. Ensure you have internet access when running the related notebooks.
+
+Data availability:
+No datasets are generated during the current study. The datasets analyzed during this work can be found at: https://medmnist.com/.
+
 # References
 V. Khatri, "Moondream2 Vision-Language Model," 2024. [Online]. Available: https://huggingface.co/spaces/vikhyatk/moondream2.
 
