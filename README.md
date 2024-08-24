@@ -19,7 +19,7 @@ cd medical-image-classification
 3. Run the notebooks
 4. Access the Moondream API: The tiny vision-language model, Moondream, is utilized via its API available at Moondream2. Ensure you have internet access when running the related notebooks.
 
-Data availability:
+# Data availability:
 No datasets are generated during the current study. The datasets analyzed during this work can be found at: https://medmnist.com/.
 
 # References
